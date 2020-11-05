@@ -81,7 +81,7 @@ img {
 
 /* showcase */
 .showcase {
-  background: url("/img/home/showcase.jpg") no-repeat center center/cover;
+  background: url("../img/home/showcase.jpg") no-repeat center center/cover;
   height: 100vh;
 }
 
@@ -123,16 +123,16 @@ img {
 }
 
 .card1 {
-  background: url(/img/home/energy.jpg) no-repeat center center/cover;
+  background: url(../img/home/energy.jpg) no-repeat center center/cover;
 }
 .card2 {
-  background: url(/img/home/weight-loss-bg.jpg) no-repeat center center/cover;
+  background: url(../img/home/weight-loss-bg.jpg) no-repeat center center/cover;
 }
 .card3 {
-  background: url(/img/home/health.jpg) no-repeat center center/cover;
+  background: url(../img/home/health.jpg) no-repeat center center/cover;
 }
 .card4 {
-  background: url(/img/home/wealth.jpg) no-repeat center center/cover;
+  background: url(../img/home/wealth.jpg) no-repeat center center/cover;
 }
 
 .community .main {
