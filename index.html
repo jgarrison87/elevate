@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/utilities.css">
+  <link rel="stylesheet" href="css/style.css">
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+  <!-- aos -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <!-- swiper -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+  <title>Elevate</title>
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="navbar">
+  <div class="container flex">
+    <h1>ELEVATE</h1>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="index.html">What Is Xyngular</a></li>
+      <li><a href="index.html">Award Winning System</a></li>
+      <li><a href="index.html">Testimonials</a></li>
+    </ul>
+    <button class="btn sm">Get Started!</button>
+  </div>
+</div>
+
+<!-- Showcase -->
+<section class="showcase">
+  <div class="showcase-container">
+    <h1 class="xl" data-aos="fade-down">Experience the future of health</h1>
+    <h2 class="lg" data-aos="fade-down">Order today and get started!</h2>
+  </div>
+</section>
+
+
+<!-- footer -->
+<div class="connect">
+  <div class="container flex">
+    <div class="connect-text">
+      <h2 class="md">STAY CONNECTED</h2>
+      <P class="sm">Join our Email Newsletter and receive special offers and promotions!</P>
+    </div>
+    <div class="connect-form">
+      <input type="email" placeholder="Your Email Address">
+      <button class="btn">SIGN UP</button>
+    </div>
+  </div>
+</div>
+
+<footer>
+<div class="footer-links">
+  <div class="container grid my-2">
+    <div class="social">
+      <h2 class="md">Follow Us!</h2>
+      <ul>
+        <li><i class="fab fa-facebook-f fa-2x"></i></li>
+        <li><i class="fab fa-instagram fa-2x"></i></li>
+        <li><i class="fab fa-twitter fa-2x"></i></li>
+        <li><i class="fab fa-youtube fa-2x"></i></li>
+      </ul>
+    </div>
+    <div class="family flex my-3">
+      <h2 class="md">Join The Familiy</h2>
+      <a href="https://www.xyngular.com/en/join-our-family/membership-sign/"
+      >Membership Sign-Up</a
+      >
+      <a
+      href="https://www.xyngular.com/en/join-our-family/xyngular-reviews/"
+      >Xyngular Reviews</a
+      >
+      <a href="#">Social Media</a>
+    </div>
+    <div class="corporate flex">
+      <h2 class="md">Xyngular Corporate</h2>
+      <a
+      href="https://www.xyngular.com/en/xyngular-corporate/return-policies/"
+      >Return Policies</a
+      >
+      <a
+      href="https://www.xyngular.com/en/xyngular-corporate/terms-conditions/"
+      >Terms and Conditions</a
+      >
+      <a
+      href="https://xyngular-xbo-media.s3.amazonaws.com/Xyngular_Income_Summary-2016.pdf"
+      >Income Summary</a
+      >
+    </div>
+    <div class="contact flex">
+      <h2 class="md">Help & Contact</h2>
+      <a href="https://www.xyngular.com/en/help-contact/support/"
+      >General Support</a
+      >
+      <a href="https://www.xyngular.com/en/help-contact/corporate-careers/"
+      >Corporate Careers</a
+      >
+      <a href="https://www.xyngular.com/en/help-contact/contact-us/"
+      >Contact Us</a
+      >
+    </div>
+  </div>
+</div>
+<div class="copyright my-2">
+  <h2>&copy; 2020 Elevated All Rights Reserved</h2>
+</div>
+</footer>
+
+<!-- email modal -->
+<div class="email-modal-bg" id="email-modal-bg">
+  <div id="email-modal" class="email-modal">
+    <div class="email-form">
+      <h1>Enjoy a complimentary approved foods list!</h1>
+      <p>And <em><u>stay</u></em> up to date on future promotions.</p>
+      <form>
+        <input type="text" placeholder="Enter Your Email" /><br />
+        <button class="submit" type="submit">SIGN UP</button>
+      </form>
+      <span class="email-modal-close">X</span>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- aos -->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({
+    offset: 200,
+    duration: 800,
+  });
+</script>
+
+ <!-- Swiper -->
+ <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+ <script>
+   var swiper = new Swiper('.swiper-container', {
+ effect: 'coverflow',
+ grabCursor: true,
+ centeredSlides: true,
+ slidesPerView: 'auto',
+ coverflowEffect: {
+   rotate: 50,
+   stretch: 0,
+   depth: 100,
+   modifier: 1,
+   slideShadows: true,
+ },
+});
+ </script>
+</body>
+</html>
