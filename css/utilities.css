@@ -32,6 +32,13 @@ html {
   transform: scale(.95);
 }
 
+.btn-outline {
+  padding: 10px 20px;
+  border: 2px solid #000;
+  border-radius: 5px;
+  background-color: transparent;
+}
+
 /* grid and flex */
 .flex {
   display: flex;
