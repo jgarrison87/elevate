@@ -39,6 +39,47 @@
   </div>
 </section>
 
+<!-- lightbox -->
+<section class="lightbox">
+  <div class="container">
+    <div class="gallery">
+      <div class="img-container">
+        <img
+          src="../img/home/preview/test1.jpg"
+          alt="""
+          data-original="canyon-full.jpg"
+        />
+      </div>
+      <div class="img-container">
+        <img
+          src="../img/home/preview/test2.jpg"
+          alt=""
+          data-original="green-river-full.jpg"
+        />
+      </div>
+      <div class="img-container">
+        <img
+          src="../img/home/preview/test3.jpg"
+          alt=""
+          data-original="lake-full.jpg"
+        />
+      </div>
+      <div class="img-container">
+        <img
+          src="../img/home/preview/test4.jpg"
+          alt=""
+          data-original="sunset-tree-full.jpg"
+        />
+      </div>
+    </div>
+
+    <div class="modal">
+      <img src="./full/canyon-full.jpg" alt="" class="full-img" />
+      <p class="caption"></p>
+    </div>
+  </div>
+</section>
+
 <!-- aws -->
 <section class="aws">
   <div class="container grid">
@@ -156,7 +197,7 @@
       >
       <a href="#">Social Media</a>
     </div>
-    <div class="corporate flex">
+    <div class="corporate flex my-3">
       <h2 class="md">Xyngular Corporate</h2>
       <a
       href="https://www.xyngular.com/en/xyngular-corporate/return-policies/"
@@ -171,7 +212,7 @@
       >Income Summary</a
       >
     </div>
-    <div class="contact flex">
+    <div class="contact flex my-3">
       <h2 class="md">Help & Contact</h2>
       <a href="https://www.xyngular.com/en/help-contact/support/"
       >General Support</a
@@ -193,19 +234,23 @@
 <!-- email modal -->
 <div class="email-modal-bg" id="email-modal-bg">
   <div id="email-modal" class="email-modal">
-    <div class="email-form">
-      <h1>Enjoy a complimentary approved foods list!</h1>
-      <p>And <em><u>stay</u></em> up to date on future promotions.</p>
-      <form>
-        <input type="text" placeholder="Enter Your Email" /><br />
-        <button class="submit" type="submit">SIGN UP</button>
-      </form>
-      <span class="email-modal-close">X</span>
+    <div class="container">
+      <div class="email-form">
+        <h1>Enjoy a complimentary approved foods list!</h1>
+        <p>And <em><u>stay</u></em> up to date on future promotions.</p>
+        <form>
+          <input type="text" placeholder="Enter Your Email" /><br />
+          <button class="submit" type="submit">SIGN UP</button>
+        </form>
+        <span class="email-modal-close">X</span>
+      </div>
     </div>
   </div>
 </div>
 
 
+<!-- js -->
+<script src="app.js"></script>
 
 <!-- aos -->
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
