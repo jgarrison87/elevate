@@ -605,9 +605,9 @@ input[type=radio]:checked {
     text-align: center;
   }
 
-  /* .footer-links .container .family,
+  .footer-links .container .family,
   .footer-links .container .corporate,
   .footer-links .container .contact {
     margin: .5rem 0px;
-  } */
+  }
 }
