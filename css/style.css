@@ -501,10 +501,13 @@ input[type=radio]:checked {
 
 
 
-
 @media (max-width:500px) {
   .navbar {
     height: 120px;
+  }
+
+  .navbar .container {
+    padding: 10px;
   }
   
   .navbar .flex {
@@ -517,6 +520,8 @@ input[type=radio]:checked {
     margin: 10px 0px;
     font-size: 10px;
     text-align: center;
+    justify-content: center;
+    align-items: center;
   }
 
   .navbar ul li:first-child {
