@@ -503,7 +503,7 @@ input[type=radio]:checked {
 
 @media (max-width:500px) {
   .navbar {
-    height: 120px;
+    height: 140px;
   }
 
   .navbar .container {
@@ -560,7 +560,7 @@ input[type=radio]:checked {
   }
 
   /* Join Us */
-  
+
   .join-us {
     display: none;
   }
@@ -584,6 +584,16 @@ input[type=radio]:checked {
   }
   /* footer */
   
+  .connect-form {
+    padding: 5px;
+  }
+  
+  .connect-form .btn {
+    color: #fff;
+    background-color: var(--orange);
+    margin: 10px auto;    
+  }
+  
   .connect .flex {
     display: flex;
     flex-direction: column;
@@ -595,13 +605,9 @@ input[type=radio]:checked {
     text-align: center;
   }
 
-  .connect-form {
-    padding: 5px;
-  }
-
-  .connect-form .btn {
-    color: #fff;
-    background-color: var(--orange);
-    margin: 10px auto;    
-  }
+  /* .footer-links .container .family,
+  .footer-links .container .corporate,
+  .footer-links .container .contact {
+    margin: .5rem 0px;
+  } */
 }
