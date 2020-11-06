@@ -550,9 +550,19 @@ input[type=radio]:checked {
   }
 
   /* aws */
+  .aws {
+    padding: 40px 0px;
+  }
+
   .aws .grid {
     grid-template-columns: 1fr;
     padding: 10px 30px;
+  }
+
+  /* Join Us */
+  
+  .join-us {
+    display: none;
   }
   
 
