@@ -432,6 +432,14 @@ input[type=radio]:checked {
   transform: translateY(-45vh);
 }
 
+.email-modal form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
 .email-modal .email-form h1 {
   font-size: 20px;
   padding: 0px 10px;
@@ -446,14 +454,6 @@ input[type=radio]:checked {
   text-align: center;
   font-size: 16px;
   padding: 10px;
-  color: #fff;
-}
-
-.email-modal form {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   color: #fff;
 }
 
@@ -612,15 +612,20 @@ input[type=radio]:checked {
   }
 
   /* email modal */
-  .email-modal .container .email-form {
-    padding: 5px;
-  }
-
-  .email-modal .container .email-form form{
-    margin: 0px 30px;  
-  }
 
   .email-modal-active {
     transform: translateY(-80vh);
+  }
+
+  .email-modal .email-form h1 {
+    font-size: 1rem;
+  }
+
+  .email-modal form input {
+    max-width: 70%;
+  }
+
+  .email-modal form button {
+    max-width: 70%;
   }
 }
