@@ -334,12 +334,8 @@ img {
     text-align: center;
   }
 
-  .showcase-container h1 {
-    font-size: 2.5rem;
-  }
-
-  .showcase-container h2 {
-    font-size: 1.75rem;
+  .showcase .container h2 {
+    font-size: 1.25rem;
     margin-top: 10px;
   }
 
