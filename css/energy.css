@@ -375,7 +375,8 @@ img {
   }
 
   .email-modal .email-form h1 {
-    font-size: 1rem;
+    font-size: 1.25rem;
+    padding-top: 10px;
   }
 
   .email-modal form input {
@@ -384,6 +385,12 @@ img {
 
   .email-modal form button {
     max-width: 70%;
+  }
+
+  .email-modal-close {
+    top: -50px;
+    left: 65%;
+    transform: translateX(-65%);
   }
 }
 

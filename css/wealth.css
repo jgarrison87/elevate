@@ -369,22 +369,32 @@ img {
   }
 
   /* email modal */
+ /* email modal */
 
-  .email-modal-active {
-    transform: translateY(-80vh);
-  }
+ .email-modal-active {
+  transform: translateY(-80vh);
+}
 
-  .email-modal .email-form h1 {
-    font-size: 1rem;
-  }
+.email-modal .email-form h1 {
+  font-size: 1.25rem;
+  padding-top: 10px;
+}
 
-  .email-modal form input {
-    max-width: 70%;
-  }
+.email-modal form input {
+  max-width: 70%;
+}
 
-  .email-modal form button {
-    max-width: 70%;
-  }
+.email-modal form button {
+  max-width: 70%;
+}
+
+.email-modal-close {
+  top: -50px;
+  left: 65%;
+  transform: translateX(-65%);
+}
+
+
 }
 
 
