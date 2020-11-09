@@ -212,7 +212,7 @@ img {
 
 .email-modal {
   position: absolute;
-  background-color: var(--teal);
+  background-color: var(--secondary-color);
   top: 120vh;
   height: 200px;
   width: 100%;
