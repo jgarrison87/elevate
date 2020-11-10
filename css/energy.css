@@ -373,23 +373,28 @@ img {
   .email-modal-active {
     transform: translateY(-80vh);
   }
-
+  
+  .email-modal {
+    height: 300px;
+  }
+  
   .email-modal .email-form h1 {
     font-size: 1.25rem;
-    padding-top: 10px;
+    padding-top: 70px;
   }
-
+  
   .email-modal form input {
-    max-width: 70%;
+    margin-top: 20px;
+    max-width: 80%;
   }
-
+  
   .email-modal form button {
-    max-width: 70%;
+    max-width: 80%;
   }
-
+  
   .email-modal-close {
-    top: -50px;
-    left: 65%;
+    top: 20px;
+    right: 10px;
     transform: translateX(-65%);
   }
 }
