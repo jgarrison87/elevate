@@ -371,7 +371,7 @@ img {
   /* email modal */
 
   .email-modal-active {
-    transform: translateY(-80vh);
+    transform: translateY(-90vh);
   }
   
   .email-modal {
