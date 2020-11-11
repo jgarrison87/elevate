@@ -81,7 +81,7 @@ img {
 
 /* showcase */
 .showcase {
-  background: url(../img/energy/x-sunset.jpg) no-repeat center center/cover;
+  background: url(../img/energy/energy.jpg) no-repeat center center/cover;
   position: relative;
   top: 0;
   left: 0;
@@ -122,8 +122,12 @@ img {
 }
 
 /* main 1 */
+.main-1 {
+  padding: 20px 0px;
+}
+
 .main-1 .container {
-  margin: 20px auto;
+  margin: 40px auto;
 }
 
 .main-1 .grid {
@@ -132,7 +136,10 @@ img {
 
 .main-1 .main-text {
   text-align: center;
+}
 
+.main-1 .container .main-text h2 {
+  color: var(--orange);
 }
 
 .main-1 .main-text p {
@@ -147,10 +154,12 @@ img {
 
 /* main 2 */
 .main-2 {
-  background-color: #f4f4f4;
+  padding: 20px 0px;
+  background-color: #f2f2f2;
 }
+
 .main-2 .container {
-  margin: 20px auto;
+  margin: 40px auto;
 }
 
 .main-2 .grid {
@@ -159,7 +168,10 @@ img {
 
 .main-2 .main-text {
   text-align: center;
+}
 
+.main-2 .container .main-text h2 {
+  color: var(--orange);
 }
 
 .main-2 .main-text p {
@@ -171,7 +183,6 @@ img {
   color: #fff;
   bordeR: none;
 }
-
 
 
 /* footer */
