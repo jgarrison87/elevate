@@ -289,7 +289,6 @@ input[type=radio]:checked {
 }
 
 .community .grid-item {
-  cursor: pointer;
   display: flex;
   height: 300px;
   justify-content: center;
@@ -299,8 +298,10 @@ input[type=radio]:checked {
 
 .community .grid-item h2 {
   padding: 5px 20px;
-  background-color: rgba(246, 246, 246, .4);
+  background-color: rgba(246, 246, 246, .7);
   color: #000;
+  border-radius: 10px;
+  cursor: pointer;
 }
 
 .card1 {
@@ -567,8 +568,8 @@ input[type=radio]:checked {
   
 
   /* community */
-  .community .grid {
-    grid-template-columns: 1fr;
+.community .grid {
+  grid-template-columns: 1fr;
   }
 
   .community .grid-item {
