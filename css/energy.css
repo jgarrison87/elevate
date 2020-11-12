@@ -184,6 +184,32 @@ img {
   bordeR: none;
 }
 
+/* center 1 */
+.center-1 {
+  text-align: center;
+}
+
+.center-1 .flex {
+  flex-direction: column;  
+}
+
+.center-1 .container p {
+  font-size: 1.5rem;
+}
+
+.center-1 .container .center-img {
+  position: relative;
+  padding: 50px 200px;
+}
+
+.center-1 .container .center-img h2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+
 /* closing */
 .closing-1 {
   text-align: center;
@@ -460,6 +486,31 @@ img {
   .main-2 .grid {
     grid-template-columns: 1fr;
   }
+
+   /* center 1 */
+ .center-1 {
+  text-align: center;
+}
+
+.center-1 .flex {
+  flex-direction: column;  
+}
+
+.center-1 .container h2 {
+  font-size: 2rem;
+}
+
+.center-1 .container video {
+  width: 400px;
+}
+
+.center-1 .container p {
+  font-size: 1rem;
+}
+
+.center-1 .container .center-img {
+  display: none;
+}
 
   /* closing-1 */
   .closing-1 .container .closing-header h2 {
