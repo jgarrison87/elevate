@@ -586,6 +586,10 @@ img {
     font-size: 2rem;
   }
 
+  .center-1 .container:last-child {
+    display: none;
+  }
+
   .center-1 .container video {
     width: 400px;
   }
@@ -643,7 +647,7 @@ img {
 
   .center-4 .container .send-details {
     top: 700px;
-    left: 45%;
+    left: 45px;
     height: 700px;
     width: 400px;
     /* transform: translateX(-50%); */
