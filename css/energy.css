@@ -199,7 +199,8 @@ img {
 
 .center-1 .container .center-img {
   position: relative;
-  padding: 50px 200px;
+  padding: 50px 0px;
+  width: 800px;
 }
 
 .center-1 .container .center-img h2 {
@@ -244,6 +245,12 @@ img {
   margin: 40px 0px;
 }
 
+.center-3 .container button:hover {
+  background-color: var(--orange);
+  color: #fff;
+  border: none;
+}
+
 /* center 4 */
 .center-4 {
   background-color: #f1f1f1;
@@ -261,7 +268,7 @@ img {
 }
 
 .center-4 .container .send-details {
-  background-color: rgba(100, 100, 100, 0.7);
+  background-color: rgba(80, 80, 80, 0.9);
   padding: 50px;
   position: absolute;
   height: 900px;
