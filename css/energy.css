@@ -643,9 +643,10 @@ img {
 
   .center-4 .container .send-details {
     top: 700px;
-    left: 45px;
+    left: 50%;
     height: 700px;
     width: 400px;
+    transform: translateX(-50%);
   }
 
   .center-4 .container .send-details h2 {
