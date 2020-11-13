@@ -607,6 +607,10 @@ img {
     grid-template-columns: 1fr;
   }
 
+  .center-2 .container .grid:last-child {
+    display: none;
+  }
+
   .center-2 .container h2 {
     font-size: 2rem;
   }
@@ -633,7 +637,7 @@ img {
 
   /* center-4 */
   .center-4 {
-    height: 1500px;
+    height: 1450px;
   }
 
   .center-4 .flex {
@@ -648,11 +652,9 @@ img {
   }
 
   .center-4 .container .send-details {
+    position: static;
     height: 700px;
-    top: 700px;
-    left: 50%;
     max-width: 400px;
-    transform: translateX(-50%);
   }
 
   .center-4 .container .send-details h2 {
