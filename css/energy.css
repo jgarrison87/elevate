@@ -532,6 +532,10 @@ img {
     justify-content: space-between;
     align-items: center;
   }
+
+  .navbar ul {
+    height: 50px;
+  }
    
   .navbar ul li {
     margin: 10px 0px;
