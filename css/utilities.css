@@ -10,7 +10,7 @@ li {
 }
 
 .container {
-  max-width: 1300px;
+  max-width: 1200px;
   height: 100%;
   margin: 0px auto;
   overflow: auto;
@@ -21,7 +21,81 @@ html {
   scroll-behavior: smooth;
 }
 
+/* tool tip */
+/* Tooltip container */
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
 
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  color: #000;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+ 
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 5;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.tooltip .tooltiptext {
+  width: 220px;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-left: -30px; 
+}
+
+/* learn-more */
+.navbar .learn-more {
+  position: fixed;
+  top: 80%;
+  right: 3%;
+  border: none;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  z-index: 10;
+}
+
+.navbar .learn-more .learn-btn {
+  background-color: transparent;
+  border: none;
+}
+
+.navbar .learn-btn a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+.navbar .learn-btn span {
+  font-size: 3.5rem;
+  font-weight: bold;
+  text-shadow: 0px 5px 10px #808080;
+}
+
+.navbar .learn-btn span:hover {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  text-shadow: 0px 5px 10px #000;
+  transition: text-shadow .2s ease-in;
+}
+
+.navbar .learn-more p {
+  text-align: center;
+  color: #000;
+  font-size: 12px;
+  font-weight: bold;
+}
 
 /* button */
 .btn {

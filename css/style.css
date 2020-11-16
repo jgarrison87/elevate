@@ -44,7 +44,7 @@ img {
 .navbar {
   background-color: #fff;
   color: var(--primary-color);
-  height: 80px;
+  height: 100px;
 }
 
 .navbar .flex {
@@ -73,11 +73,11 @@ img {
   text-decoration: none;
 }
 
-.navbar .container .btn {
-  position: relative;
+.navbar .container .get-started button {
   background-color: var(--primary-color);
   color: #fff;
 }
+
 
 /* showcase */
 .showcase {
