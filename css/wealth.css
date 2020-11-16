@@ -521,7 +521,7 @@ img {
 
 @media (max-width:500px) {
   .navbar {
-    height: 140px;
+    height: 150px;
   }
 
   .navbar .container {
@@ -533,13 +533,16 @@ img {
     justify-content: space-between;
     align-items: center;
   }
+
+  .navbar ul {
+    height: 50px;
+  }
    
   .navbar ul li {
-    margin: 10px 0px;
     font-size: 14px;
     text-align: center;
-    justify-content: center;
-    align-items: center;
+    display: flex;
+    flex-direction: column;
   }
 
   .navbar ul li:first-child {
@@ -548,7 +551,7 @@ img {
 
   .navbar .container .btn {
     outline: none;
-    margin-bottom: 10px;
+    margin: 10px 0px;
   }
 
   /* showcase */
