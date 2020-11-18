@@ -100,10 +100,6 @@ img {
 
 
 /* aws */
-.aws {
-  background-color: #f1f1f1;
-}
-
 .aws .container {
   padding: 50px 0px;
   grid-gap: 50px;
@@ -124,18 +120,85 @@ img {
   border-bottom: 2px solid var(--primary-color);
 }
 
+/* testimonials */
+.testimonials {
+  background-color: #f1f1f1;
+}
+
+.slider-container {
+  overflow: hidden;
+  width: 500px;
+  height: 500px;
+}
+
+.slider-container .slider {
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  animation: 15s slider infinite;
+}
+
+.slider-container .slider img {
+  width: 20%;
+  float: left;
+}
+
+@keyframes slider {
+  0% { left: 0; }
+  20% { left: 0; }
+  25% { left: -100%; }
+  45% { left: -100%; }
+  50% { left: -200%; }
+  70% { left: -200%; }
+  75% { left: -300%; }
+  95% { left: -300%; }
+  100% { left: -400%; }
+}
+
+.testimonials .container {
+  padding: 50px 0px;
+  grid-gap: 50px;
+}
+
+.testimonials .container .testimonials-text h2 {
+  padding-bottom: 20px;
+  border-bottom: 2px solid var(--primary-color);
+}
+
+.testimonials .container .testimonials-text {
+  text-align: center;
+  line-height: 1.5rem;
+}
+
+
 /* Join Us */
+  .join-us .btn-outline {
+    margin: 80px auto;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    color: var(--primary-color);
+    border-color: vaR(--primary-color);
+    cursor: pointer;
+   }
+  
+  .join-us .btn-outline a {
+    text-decoration: none;
+  }
+  
+  .join-us .btn a:visited {
+    color: var(--primary-color);
+    text-decoration: none;
+    border: none;
+    outline: none;
+  }
+
 .join-us {
   padding-top: 30px;
 }
 .join-us .container {
   height: 800px;
-}
-
-.join-header {
-  text-align: center;
-  padding-bottom: 20px;
-  border-bottom: 2px solid var(--primary-color);
 }
 
 #slider {
@@ -258,26 +321,6 @@ input[type=radio]:checked {
   transform: translate3d(-15%, 0, -100px);
 }
 
-.join-us .btn-outline {
-  margin: 80px auto;
-  display: flex;
-  justify-content: center;
-  border-radius: 5px;
-  color: var(--primary-color);
-  border-color: vaR(--primary-color);
-  cursor: pointer;
- }
-
-.join-us .btn-outline a {
-  text-decoration: none;
-}
-
-.join-us .btn a:visited {
-  color: var(--primary-color);
-  text-decoration: none;
-  border: none;
-  outline: none;
-}
 
 
 /* community */
@@ -564,6 +607,21 @@ input[type=radio]:checked {
     padding: 10px 30px;
   }
 
+  /* testimonials */
+  .testimonials .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .testimonials .grid .slider-container {
+    height: 400px;
+    width: 380px;
+    margin: 0px auto;
+  }
+
+  .testimonials .container .testimonials-text p {
+    margin: 30px;
+  }
+
   /* Join Us */
 
   .join-us {
@@ -572,6 +630,10 @@ input[type=radio]:checked {
   
 
   /* community */
+  .community .container {
+    box-shadow: none;
+  }
+
 .community .grid {
   grid-template-columns: 1fr;
   }
@@ -587,6 +649,7 @@ input[type=radio]:checked {
   .community .main .md {
     font-size: 1.5rem;
   }
+
   /* footer */
   
   .connect-form {
