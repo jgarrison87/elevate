@@ -225,6 +225,10 @@ img {
   margin-bottom: 50px;
 }
 
+.center-2 .container .grid .grid-item video {
+  width: 550px;
+}
+
 /* center 3 */
 .center-3 {
   text-align: center;
