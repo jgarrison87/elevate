@@ -711,7 +711,6 @@ img {
   /* center 5 */
   .center-5 .grid {
     grid-template-columns: 1fr;
-    grid-row-gap: 50px;
   }
 
   .center-5 .grid .center-text p {

@@ -682,6 +682,15 @@ img {
   margin-top: 30px;
 }
 
+/* center 5 */
+.center-5 .grid {
+  grid-template-columns: 1fr;
+}
+
+.center-5 .grid .center-text p {
+  font-size: 1.5rem;
+}
+
 
    /* closing-1 */
    .closing-1 .container {
