@@ -160,6 +160,7 @@ img {
 
 .main-2 .container {
   margin: 40px auto;
+  overflow: hidden;
 }
 
 .main-2 .grid {
@@ -297,12 +298,25 @@ img {
   color: var(--purple)
 }
 
-.center-4 .container .send-details button {
-  color: #fff;
-  border-color: #fff;
+
+/* center 5 */
+.center-5 .container {
+  margin: 50px auto;
+  text-align: center;
+  overflow: hidden;
 }
 
-.center-4 .container .send-details button:hover {
+.center-5 .grid .center-text h2 strong {
+  color: var(--purple);
+}
+
+.center-5 .container button {
+  color: #000000;
+  border-color: #000;
+  margin-top: 20px;
+}
+
+.center-5 .container button:hover {
   background-color: var(--purple);
   border: none;
   color: #fff;
@@ -316,6 +330,11 @@ img {
 
 .closing-1 .container {
   padding: 40px;
+  overflow: hidden;
+}
+
+.closing-1 .container h2 {
+  margin-bottom: 30px;
 }
 
 .closing-1 .grid .grid-item {

@@ -128,6 +128,7 @@ img {
 
 .main-1 .container {
   margin: 40px auto;
+  overflow: hidden;
 }
 
 .main-1 .grid {
@@ -160,6 +161,7 @@ img {
 
 .main-2 .container {
   margin: 40px auto;
+  overflow: hidden;
 }
 
 .main-2 .grid {
@@ -304,7 +306,18 @@ img {
 .center-4 .container .send-details button:hover {
   background-color: var(--green);
   border: none;
-  color: #fff;
+}
+
+
+/* center 5 */
+.center-5 .container {
+  margin: 50px auto;
+  text-align: center;
+  overflow: hidden;
+}
+
+.center-5 .container .center-text {
+  line-height: 1.5rem;
 }
 
 
@@ -316,6 +329,11 @@ img {
 
 .closing-1 .container {
   padding: 40px;
+  overflow: hidden;
+}
+
+.closing-1 .container h2 {
+  margin-bottom: 30px;
 }
 
 .closing-1 .grid .grid-item {

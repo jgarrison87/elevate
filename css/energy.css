@@ -340,6 +340,10 @@ img {
   padding: 40px;
 }
 
+.closing-1 .container h2 {
+  margin-bottom: 30px;
+}
+
 .closing-1 .grid .grid-item {
   text-align: center;
   padding: 20px 0;
