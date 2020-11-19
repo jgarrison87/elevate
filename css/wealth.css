@@ -323,6 +323,7 @@ img {
 
 /* closing */
 .closing-1 {
+  background-color: #f1f1f1;
   text-align: center;
   padding: 40px;
 }
@@ -701,7 +702,9 @@ img {
 }
 
 /* center 5 */
-
+.center-5 .container .center-text h2 {
+  line-height: 2rem;
+}
 
    /* closing-1 */
    .closing-1 .container {
