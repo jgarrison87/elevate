@@ -701,13 +701,6 @@ img {
 }
 
 /* center 5 */
-.center-5 .grid {
-  grid-template-columns: 1fr;
-}
-
-.center-5 .grid .center-text p {
-  font-size: 1.5rem;
-}
 
 
    /* closing-1 */
