@@ -42,7 +42,7 @@ img {
 
 /* Navbar */
 .navbar {
-  background-color: #fff;
+  background-color: transparent;
   color: var(--primary-color);
   height: 100px;
 }
@@ -81,23 +81,30 @@ img {
 
 /* showcase */
 .showcase {
+  position: relative;
   background: url("../img/home/showcase.jpg") no-repeat center center/cover;
-  height: 100vh;
+  height: 110vh;
+}
+
+.showcase .showcase-cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, .3);
 }
 
 .showcase .showcase-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
   color: #fff;
   line-height: 1.2;
+  z-index: 5;
 }
-
-.showcase .showcase-container h1 {
-  margin-top: 250px;
-}
-
 
 /* aws */
 .aws .container {
