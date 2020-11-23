@@ -433,6 +433,15 @@ input[type=radio]:checked {
   font-weight: bold;
 }
 
+.footer-links .container .contact img {
+  width: 130px;
+  height: 180px;
+}
+
+.footer-links .container .contact h2 {
+  padding: 2px;
+}
+
 .copyright {
   text-align: center;
 }
@@ -572,10 +581,10 @@ input[type=radio]:checked {
     flex-direction: column;
   }
 
-  .navbar ul li:first-child {
+  .navbar ul li:last-child,
+  .navbar ul li:nth-child(4) {
     display: none;
   }
-
   .navbar .container .btn {
     outline: none;
     margin: 10px 0px;
