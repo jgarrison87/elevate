@@ -82,7 +82,7 @@ img {
 /* showcase */
 .showcase {
   position: relative;
-  background: url("./img/home/showcase.jpg") no-repeat center center/cover;
+  background: url("../img/home/showcase.jpg") no-repeat center center/cover;
   height: 110vh;
 }
 
