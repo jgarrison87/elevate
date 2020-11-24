@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  height: 500px;
+  width: 500px;
+}
+
+.products .grid .flex {
+  flex-direction: column;
+}
+
+.products .grid .item {
+  padding: 30px;
+  border-radius: 10px;
+  border: 2px solid #000;
+}
+
+.products .grid .item:hover {
+  background-color: #f1f1f1;
+  border-radius: 10px;
+  border: none;
+}
+
+.products .grid .item button {
+  margin: 20px auto 5px;
+}
+
+@media (max-width:500px) {
+  .products .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .products .container .item img {
+    height: 300px;
+    width: 300px;
+  }
+}
