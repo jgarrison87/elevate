@@ -288,7 +288,7 @@ img {
 }
 
 .center-4 .container .send-details {
-  background-color: var(--secondary-color);
+  background-color: rgba(80, 80, 80, 0.9);
 }
 
 .center-4 .container .send-details h2 {
@@ -691,25 +691,12 @@ img {
   }
 
   /* center-4 */
-  .center-4 {
-    height: 1450px;
-  }
-
-  .center-4 .flex {
-   flex-direction: column;
-   justify-content: space-between;
-   align-items: center;
-  }
-
-  .center-4 .container img {
-    height: 600px;
+  .center-4 .container video {
     width: 400px;
   }
 
   .center-4 .container .send-details {
-    position: static;
-    height: 700px;
-    max-width: 400px;
+    padding: 15px;
   }
 
   .center-4 .container .send-details h2 {
