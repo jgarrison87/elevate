@@ -238,9 +238,12 @@ img {
 }
 
 .center-2 .container .grid .grid-item {
-  display: flex;
-  flex-direction: column;
-  margin: 0px;
+  height: 100%;
+  border-bottom: 2px solid #000;
+}
+
+.center-2 .container .grid .grid-item h2 {
+  height: 125px;
 }
 
 .center-2 .container .grid .grid-item video {
@@ -383,6 +386,7 @@ img {
 /* closing-2 */
 .closing-2 .grid {
   grid-template-columns: repeat(3, 1fr);
+  margin: 50px auto;
 }
 
 .closing-2 .closing-final {
