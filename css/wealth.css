@@ -197,6 +197,7 @@ img {
 
 .center-1 .container p {
   font-size: 1.5rem;
+  line-height: 1.75rem;
 }
 
 .center-1 .container button {
@@ -296,7 +297,7 @@ img {
   background-color: rgba(80, 80, 80, 0.9);
   padding: 50px;
   position: absolute;
-  height: 900px;
+  height: 800px;
   width: 600px;
   top: 100px;
   right: 110px;
@@ -716,7 +717,7 @@ img {
 
 .center-4 .container .send-details {
   position: static;
-  height: 700px;
+  height: 600px;
   max-width: 400px;
 }
 

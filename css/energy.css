@@ -196,7 +196,7 @@ img {
 
 .center-1 .container p {
   font-size: 1.5rem;
-  line-height: 2.5rem;
+  line-height: 1.75rem;
 }
 
 .center-1 .container button {
@@ -662,10 +662,6 @@ img {
 
   .center-1 .container h2 {
     font-size: 2rem;
-  }
-
-  .center-1 .container:last-child {
-    display: none;
   }
 
   .center-1 .container video {
