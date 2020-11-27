@@ -199,6 +199,16 @@ img {
   line-height: 2.5rem;
 }
 
+.center-1 .container button {
+  margin-bottom: 40px;
+}
+
+.center-1 .container button:hover {
+  background-color: var(--orange);
+  color: #fff;
+  border: none;
+}
+
 .center-1 .container .center-img {
   position: relative;
   padding: 50px 0px;
@@ -624,6 +634,10 @@ img {
     grid-template-columns: 1fr;
   }
 
+  .main-1 .grid img {
+    width: 400px;
+  }
+
   /* main-2 */
   .main-2 {
     padding: 20px 0px;
@@ -633,6 +647,10 @@ img {
     grid-template-columns: 1fr;
   }
 
+  .main-2 .grid img {
+    width: 400px;
+  }
+  
    /* center 1 */
  .center-1 {
     text-align: center;

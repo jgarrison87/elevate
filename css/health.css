@@ -199,6 +199,16 @@ img {
   font-size: 1.5rem;
 }
 
+.center-1 .container button {
+  margin-bottom: 40px;
+}
+
+.center-1 .container button:hover {
+  background-color: var(--teal);
+  color: #fff;
+  border: none;
+}
+
 .center-1 .container .center-img {
   position: relative;
   padding: 50px 0px;
@@ -380,6 +390,7 @@ img {
 /* closing-2 */
 .closing-2 .grid {
   grid-template-columns: repeat(3, 1fr);
+  margin: 50px auto;
 }
 
 .closing-2 .closing-final {
@@ -612,10 +623,18 @@ img {
    grid-template-columns: 1fr;
   }
 
+  .main-1 .grid img {
+    width: 400px;
+  }
+
   /* main-2 */
   
   .main-2 .grid {
    grid-template-columns: 1fr;
+  }
+
+  .main-2 .grid img {
+    width: 400px;
   }
 
    /* center 1 */
