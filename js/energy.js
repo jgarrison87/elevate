@@ -1,13 +1,21 @@
-const closeBtn = document.querySelector(".email-modal-close");
+const closeBtn = document.querySelector(".modal-close");
 const submitBtn = document.querySelector(".submit");
+
+// hamburger menu
+const hamburger = document.getElementById('hamburger');
+const navUL = document.getElementById('nav-ul');
+
+hamburger.addEventListener('click', () => {
+  navUL.classList.toggle('show');
+})
 
 // email modal
 submitBtn.addEventListener('click', () => {
-  document.getElementById("email-modal-bg").classList.remove("email-modal-bg-active");
+  document.getElementById("modal-bg").classList.remove("modal-active");
 });
 
 closeBtn.addEventListener('click', () => {
-  document.getElementById("email-modal-bg").classList.remove("email-modal-bg-active");
+  document.getElementById("modal-bg").classList.remove("modal-active");
 });
 
 
@@ -17,11 +25,3 @@ function modalOpen5() {
 }
 
 setTimeout("modalOpen5()", 5000);
-
-// hamburger menu
-const hamburger = document.getElementById('hamburger');
-const navUL = document.getElementById('nav-ul');
-
-hamburger.addEventListener('click', () => {
-  navUL.classList.toggle('show');
-})
