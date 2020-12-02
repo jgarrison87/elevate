@@ -1,5 +1,7 @@
 const closeBtn = document.querySelector(".email-modal-close");
 const submitBtn = document.querySelector(".submit");
+const hamburger = document.querySelector("#hamburger");
+const navUL = document.querySelector("#nav-ul");
 
 // email modal
 submitBtn.addEventListener('click', () => {
@@ -17,3 +19,8 @@ function modalOpen5() {
 }
 
 setTimeout("modalOpen5()", 5000);
+
+// hamburger menu
+hamburger.addEventListener('click', () => {
+  hamburger.style.backgroundColor = 'blue';
+})
