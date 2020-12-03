@@ -40,6 +40,7 @@ img {
   width: 100%;
 }
 
+
 /* Navbar */
 .navbar {
   height: 100px;
@@ -91,7 +92,7 @@ img {
 .get-started button {
   background-color: var(--teal);
   color: #fff;
-}
+} 
 
 /* showcase */
 .showcase {
@@ -132,7 +133,7 @@ img {
   width: 500%;
   margin: 0;
   left: 0;
-  animation: 12s slider infinite;
+  animation: 15s slider infinite;
 }
 
 .slider-container .slider img {
@@ -469,41 +470,17 @@ input[type=radio]:checked {
 
 
 /* email modal */
-.email-modal-bg {
-  position: fixed;
-  height: 100vh;
-  width: 100%;
-  top: 0;
-  left: 0;
-  background-color: rgba(200, 200, 200, 0.5);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  visibility: hidden;
-  opacity: 0;
-  transition: visibilty 0.2s, opacity 0.5s;
-  z-index: 100;
-}
-
-.email-modal-bg-active {
-  visibility: visible;
-  opacity: 1;
-}
-
-.email-modal {
+.modal-container {
   position: absolute;
   background-color: var(--secondary-color);
-  top: 120vh;
-  height: 200px;
+  height: 250px;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   transition: all .4s ease-in-out;
-}
-
-.email-modal-active {
-  transform: translateY(-45vh);
+  border-radius: 10px;
+  bottom: -250px;
 }
 
 .email-modal form {
@@ -514,19 +491,14 @@ input[type=radio]:checked {
   color: #fff;
 }
 
-.email-modal .email-form h1 {
-  font-size: 20px;
+.email-modal .email-form h2 {
   padding: 0px 10px;
   color: #fff;
   text-align: center;
 }
 
-.email-modal h1 span {
-  color: var(--primary-color);
-}
 .email-modal p {
   text-align: center;
-  font-size: 16px;
   padding: 10px;
   color: #fff;
 }
@@ -571,52 +543,53 @@ input[type=radio]:checked {
   font-size: 28px;
   color: #fff;
   cursor: pointer;
-}
+} 
 
 
 
 @media (max-width:500px) {
-  /* navbar */
-  .hamburger {
-    display: block;
-  }
+ /* navbar */
+ .hamburger {
+  display: block;
+}
 
-  .nav-ul {
-    display: none;
-  }
-  
-  .navbar {
-    position: relative;
-  }
-  
-  .nav-ul.show {
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    top: 100px;
-    right: 0px;
-    z-index: 100;
-    transition: all .5s ease-in-out;
-  }
+.nav-ul {
+  display: none;
+}
 
-  .nav-ul {
-    background-color: rgba(50, 50, 50, 0.8);
-  }
+.navbar {
+  position: relative;
+}
 
-  .nav-ul li {
-    border-bottom: 2px solid #000;
-  }
+.nav-ul.show {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 100px;
+  right: 0px;
+  z-index: 100;
+  transition: all .5s ease-in-out;
+}
 
-  .nav-ul a {
-    font-size: 1.5rem;
-    margin: 30px;
-    padding: 0px;
-    line-height: 4rem;
-  }
+.nav-ul {
+  background-color: rgba(50, 50, 50, 0.8);
+}
 
-  .get-started {
-    display: none;
-  }
+.nav-ul li {
+  border-bottom: 2px solid #000;
+}
+
+.nav-ul a {
+  font-size: 1.5rem;
+  margin: 30px;
+  padding: 0px;
+  line-height: 4rem;
+}
+
+.get-started {
+  display: none;
+}
+
 
   /* showcase */
   .showcase-container {
