@@ -470,6 +470,17 @@ input[type=radio]:checked {
 
 
 /* email modal */
+.modal-bg {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(50, 50, 50, 0.6);
+  z-index: 100;
+  display: none;
+}
+
 .modal-container {
   position: absolute;
   background-color: var(--secondary-color);
@@ -480,7 +491,14 @@ input[type=radio]:checked {
   align-items: center;
   transition: all .4s ease-in-out;
   border-radius: 10px;
-  bottom: -250px;
+  bottom: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+  
+}
+
+.modal-container.active {
+  transform: translateY(250px);
 }
 
 .email-modal form {
@@ -497,10 +515,20 @@ input[type=radio]:checked {
   text-align: center;
 }
 
-.email-modal p {
+.email-modal .email-form p {
   text-align: center;
   padding: 10px;
   color: #fff;
+}
+
+.email-modal .email-form span {
+  color: #a6a6a6;
+  font-size: 2rem;
+  font-weight: bold;
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  cursor: pointer;
 }
 
 .email-modal form input {
@@ -535,16 +563,9 @@ input[type=radio]:checked {
   background-color: var(--primary-color);
 }
 
-.email-modal-close {
-  position: absolute;
-  top: 20px;
-  right: 20px;
-  font-weight: bold;
-  font-size: 28px;
+.email-modal .email-form span:hover {
   color: #fff;
-  cursor: pointer;
-} 
-
+}
 
 
 @media (max-width:500px) {
@@ -718,4 +739,22 @@ input[type=radio]:checked {
   right: 10px;
   transform: translateX(-65%);
 }
+
+/* email modal */
+.modal-container {
+  width: 350px;
+  height: 500px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.email-modal .email-form {
+  width: 100%;
+}
+
+.email-modal .email-form h2 {
+  font-size: 2rem;
+}
+
 }
