@@ -1,27 +1,21 @@
-const closeBtn = document.querySelector(".modal-close");
-const submitBtn = document.querySelector(".submit");
-
-// hamburger menu
 const hamburger = document.getElementById('hamburger');
 const navUL = document.getElementById('nav-ul');
+const modalClose = document.getElementById('modal-close');
+
+// hamburger menu
 
 hamburger.addEventListener('click', () => {
   navUL.classList.toggle('show');
 })
 
 // email modal
-submitBtn.addEventListener('click', () => {
-  document.getElementById("modal-bg").classList.remove("modal-active");
-});
-
-closeBtn.addEventListener('click', () => {
-  document.getElementById("modal-bg").classList.remove("modal-active");
-});
-
-
 function modalOpen5() {
-  document.getElementById("email-modal-bg").classList.add("email-modal-bg-active");
-  document.getElementById("email-modal").classList.add("email-modal-active");
-}
+  document.querySelector(".modal-bg").style.display = 'block'
+};
 
 setTimeout("modalOpen5()", 5000);
+
+// email modal close
+modalClose.addEventListener('click', () => {
+  document.querySelector(".modal-bg").style.display = 'none'
+});

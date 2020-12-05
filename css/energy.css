@@ -485,43 +485,36 @@ img {
 }
 
 
-
 /* email modal */
-.email-modal-bg {
+.modal-bg {
   position: fixed;
-  height: 100vh;
+  top: 0px;
+  left: 0px;
+  height: 100%;
   width: 100%;
-  top: 0;
-  left: 0;
-  background-color: rgba(200, 200, 200, 0.5);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  visibility: hidden;
-  opacity: 0;
-  transition: visibilty 0.2s, opacity 0.5s;
+  background-color: rgba(50, 50, 50, 0.6);
   z-index: 100;
+  display: none;
 }
 
-.email-modal-bg-active {
-  visibility: visible;
-  opacity: 1;
-}
-
-.email-modal {
+.modal-container {
   position: absolute;
   background-color: var(--secondary-color);
-  top: 120vh;
-  height: 200px;
+  height: 250px;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   transition: all .4s ease-in-out;
+  border-radius: 10px;
+  bottom: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+  
 }
 
-.email-modal-active {
-  transform: translateY(-45vh);
+.modal-container.active {
+  transform: translateY(250px);
 }
 
 .email-modal form {
@@ -532,21 +525,26 @@ img {
   color: #fff;
 }
 
-.email-modal .email-form h1 {
-  font-size: 20px;
+.email-modal .email-form h2 {
   padding: 0px 10px;
   color: #fff;
   text-align: center;
 }
 
-.email-modal h1 span {
-  color: var(--primary-color);
-}
-.email-modal p {
+.email-modal .email-form p {
   text-align: center;
-  font-size: 16px;
   padding: 10px;
   color: #fff;
+}
+
+.email-modal .email-form .modal-close {
+  color: #a6a6a6;
+  font-size: 2rem;
+  font-weight: bold;
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  cursor: pointer;
 }
 
 .email-modal form input {
@@ -581,14 +579,8 @@ img {
   background-color: var(--primary-color);
 }
 
-.email-modal-close {
-  position: absolute;
-  top: 20px;
-  right: 20px;
-  font-weight: bold;
-  font-size: 28px;
+.email-modal .email-form span:hover {
   color: #fff;
-  cursor: pointer;
 }
 
 
@@ -821,33 +813,36 @@ img {
 
 /* email modal */
 
-  .email-modal-active {
-    transform: translateY(-90vh);
-  }
-  
-  .email-modal {
-    height: 300px;
-  }
-  
-  .email-modal .email-form h1 {
-    font-size: 1.25rem;
-    padding-top: 70px;
-  }
-  
-  .email-modal form input {
-    margin-top: 20px;
-    max-width: 80%;
-  }
-  
-  .email-modal form button {
-    max-width: 80%;
-  }
-  
-  .email-modal-close {
-    top: 20px;
-    right: 10px;
-    transform: translateX(-65%);
-  }
+.email-modal {
+  height: 300px;
+}
+ 
+.email-modal form input {
+  margin-top: 20px;
+  max-width: 300px;
+}
+
+.email-modal form button {
+  margin-top: 20px;
+  max-width: 300px;
+}
+
+.modal-container {
+  width: 350px;
+  height: 500px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.email-modal .email-form {
+  width: 100%;
+}
+
+.email-modal .email-form h2 {
+  font-size: 2rem;
+}
+
 }
 
 

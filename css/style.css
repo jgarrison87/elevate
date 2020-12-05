@@ -521,7 +521,7 @@ input[type=radio]:checked {
   color: #fff;
 }
 
-.email-modal .email-form span {
+.email-modal .email-form .modal-close {
   color: #a6a6a6;
   font-size: 2rem;
   font-weight: bold;
@@ -712,35 +712,24 @@ input[type=radio]:checked {
 
    /* email modal */
 
- .email-modal-active {
-  transform: translateY(-90vh);
-}
-
 .email-modal {
   height: 300px;
 }
 
-.email-modal .email-form h1 {
+.email-modal .email-form h2 {
   font-size: 1.25rem;
-  padding-top: 70px;
 }
 
 .email-modal form input {
   margin-top: 20px;
-  max-width: 80%;
+  max-width: 300px;
 }
 
 .email-modal form button {
-  max-width: 80%;
+  margin-top: 20px;
+  max-width: 300px;
 }
 
-.email-modal-close {
-  top: 20px;
-  right: 10px;
-  transform: translateX(-65%);
-}
-
-/* email modal */
 .modal-container {
   width: 350px;
   height: 500px;
