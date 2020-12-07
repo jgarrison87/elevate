@@ -99,14 +99,12 @@ img {
 .showcase {
   background: url(../img/health/become-more-bg2.jpg) no-repeat center center/cover;
   position: relative;
-  top: 0;
-  left: 0;
-  height: 80vh;
+  height: 100vh;
 }
 
 .showcase .cover {
   position: absolute;
-  height: 80vh;
+  height: 100vh;
   width: 100%;
   background-color: #000;
   opacity: .4;
@@ -497,7 +495,7 @@ img {
   left: 0px;
   height: 100%;
   width: 100%;
-  background-color: rgba(50, 50, 50, 0.6);
+  background-color: rgba(50, 50, 50, 0.4);
   z-index: 100;
   display: none;
 }
@@ -814,6 +812,11 @@ img {
 
    .email-modal {
     height: 300px;
+  }
+
+  .email-modal .modal-container {
+    border: 2px solid var(--teal);
+    box-shadow: 0px 0px 40px 5px #000;  
   }
    
   .email-modal form input {

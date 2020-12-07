@@ -494,7 +494,7 @@ img {
   left: 0px;
   height: 100%;
   width: 100%;
-  background-color: rgba(50, 50, 50, 0.6);
+  background-color: rgba(50, 50, 50, 0.4);
   z-index: 100;
   display: none;
 }
@@ -825,6 +825,11 @@ img {
 
 .email-modal {
   height: 300px;
+}
+
+.email-modal .modal-container {
+  border: 2px solid var(--teal);
+  box-shadow: 0px 0px 40px 5px #000;  
 }
 
 .email-modal form input {
