@@ -13,7 +13,7 @@ function modalOpen5() {
   document.querySelector(".modal-bg").style.display = 'block'
 };
 
-setTimeout("modalOpen5()", 5000);
+setTimeout("modalOpen5()", 7000);
 
 // email modal close
 modalClose.addEventListener('click', () => {
