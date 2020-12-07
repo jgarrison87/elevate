@@ -114,10 +114,11 @@ img {
   z-index: 2;
 }
 
+
 .showcase .showcase-container h1 {
   text-align: center;
   color: #fff;
-  padding-top: 400px;
+  top: 400px;
   position: relative;
   z-index: 3;
 }
@@ -498,6 +499,10 @@ input[type=radio]:checked {
   left: 50%;
   transform: translateX(-50%);
   
+}
+
+.email-modal .modal-container {
+  border: 2px solid var(--teal);
 }
 
 .modal-container.active {

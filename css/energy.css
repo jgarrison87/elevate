@@ -520,7 +520,10 @@ img {
   bottom: 0px;
   left: 50%;
   transform: translateX(-50%);
-  
+ }
+
+ .email-modal .modal-container {
+  border: 2px solid var(--teal);
 }
 
 .modal-container.active {
