@@ -54,9 +54,10 @@ img {
   justify-content: space-between;
 }
 
-.navbar .container h2 a {
-  font-size: 2.5rem;
-  color: var(--orange);
+.navbar .container img {
+  height: 80px;
+  width: 150px;
+  margin: 0;
 }
 
 .hamburger {
@@ -478,6 +479,15 @@ img {
 .footer-links .container a:hover {
   border-bottom: 2px solid var(--orange);
   font-weight: bold;
+}
+
+.footer-links .container .contact img {
+  width: 130px;
+  height: 180px;
+}
+
+.footer-links .container .contact h2 {
+  padding: 2px;
 }
 
 .copyright {
