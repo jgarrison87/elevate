@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
+:root {
+  --primary-color: #6cdfcc;
+  --primary-dark: #2dd1b6;
+  --primary-light: #abede2;
+  --secondary-color: #393e46;
+  --success-color: #2ecc71;
+  --error-color: #e74c3c;
+  --orange: #fab05e;
+  --teal: #6cdfcc;
+  --purple: #a383d2;  
+  --green: #8fcfa0;
+  --yellow: #fec24a;
+  --red: #e35151;
+  --blue: #b0e1e5;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: var(--teal);
+  
+}
+
+/* container */
+.container {
+  max-width: 800px;
+  max-height: 650px;
+  background-color: var(--secondary-color);
+  text-align: center;
+  padding: 50px;
+  justify-content: space-between;
+  border-radius: 15px;
+  margin: 200px auto;
+  box-shadow: 0px 10px 30px 5px #000;
+}
+
+.container h2 {
+  color: var(--teal)
+}
+
+/* form */
+.form-control input,
+.form-control select,
+.form-control textarea {
+  width: 300px;
+  font-size: 1.2rem;
+  margin: 5px;
+  background-color: var(--secondary-color);
+  color: #fff;
+}
+
+.form-control input {
+  border: none;
+  border-bottom: 2px solid #a1a1a1;
+  padding: 5px;
+}
+
+.form-control select {
+  cursor: pointer;
+}
+
+.form-control textarea {
+  padding: 5px;
+}
+
+form .btn {
+  width: 300px;
+  background-color: var(--teal);
+  color: #fff;
+}
+

@@ -4,27 +4,42 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>test form</title>
+  <!-- stylesheets -->
+  <link rel="stylesheet" href="../css/utilities.css">
+  <link rel="stylesheet" href="test.css">
+   <!-- font awesome -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
 </head>
 <body>
-  <form name="contact" method="POST" data-netlify="true">
-    <p>
-      <label>Your Name: <input type="text" name="name" /></label>   
-    </p>
-    <p>
-      <label>Your Email: <input type="email" name="email" /></label>
-    </p>
-    <p>
-      <label>Your Role: <select name="role[]" multiple>
-        <option value="leader">Leader</option>
-        <option value="follower">Follower</option>
-      </select></label>
-    </p>
-    <p>
-      <label>Message: <textarea name="message"></textarea></label>
-    </p>
-    <p>
-      <button type="submit">Send</button>
-    </p>
-  </form>
+  <div class="container flex">
+    <div class="main-text">
+      <h2 class="md">CONTACT <br>
+        <u>US</u>
+      </h2>
+    </div>
+    <form name="contact" method="POST" data-netlify="true">
+      <div class="form-control">
+        <input type="text" placeholder="Enter Name">
+      </div>
+      <div class="form-control">
+        <input type="email" placeholder="Enter Email">
+      </div>
+      <div class="form-control">
+        <select name="goals" id="goals">
+          <option value="goals">Personal Goals</option>
+          <option value="sleep">Sleep Quality</option>
+          <option value="energy">More Energy</option>
+          <option value="strength">Strength</option>
+          <option value="mental">Mental Fog</option>
+        </select>
+      </div>
+      <div class="form-control">
+        <textarea name="message" cols="30" rows="10"></textarea>
+      </div>       
+      
+      <button type="submit" class="btn">Submit</button>
+    </form>
+  </div>
+  
 </body>
 </html>
