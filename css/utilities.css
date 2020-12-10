@@ -21,6 +21,11 @@ html {
   scroll-behavior: smooth;
 }
 
+button:focus {
+  outline: none;
+  border: none;
+}
+
 /* tool tip */
 /* Tooltip container */
 .tooltip {

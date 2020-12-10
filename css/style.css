@@ -77,10 +77,11 @@ img {
 
 .nav-ul {
   display: flex;
+  padding: 20px;
 }
 
 .nav-ul a {
-  color: var(--teal);
+  color: var(--secondary-color);
   font-size: 1.1rem;
   margin: 0px 20px;
   padding: 5px 10px;
@@ -173,6 +174,17 @@ img {
   line-height: 1.5rem;
 }
 
+.testimonials .container .testimonials-text button:hover {
+  background-color: var(--teal);
+  color: #fff;
+  border: none;
+}
+
+.testimonials .container .testimonials-text button:hover a {
+  color: #fff;
+}
+
+
 /* How We Can Help */
 .aws {
   background-color: #f1f1f1;
@@ -196,6 +208,15 @@ img {
 .aws .container .aws-text strong {
   color: var(--primary-color);
   border-bottom: 2px solid var(--primary-color);
+}
+
+.aws .container .aws-text button:hover {
+  background-color: var(--teal);
+  border: none;
+}
+
+.aws .container .aws-text button:hover a {
+  color: #fff;
 }
 
 /* Join Us */
