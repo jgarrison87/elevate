@@ -174,14 +174,10 @@ img {
   line-height: 1.5rem;
 }
 
-.testimonials .container .testimonials-text button:hover {
+.testimonials .container .testimonials-text .btn:hover {
   background-color: var(--teal);
   color: #fff;
   border: none;
-}
-
-.testimonials .container .testimonials-text button:hover a {
-  color: #fff;
 }
 
 
@@ -202,7 +198,7 @@ img {
 
 .aws .container .aws-text {
   text-align: center;
-  line-height: 1.5rem;
+  line-height: 1.5rem; 
 }
 
 .aws .container .aws-text strong {
@@ -210,12 +206,9 @@ img {
   border-bottom: 2px solid var(--primary-color);
 }
 
-.aws .container .aws-text button:hover {
+.aws .container .aws-text .btn:hover {
   background-color: var(--teal);
   border: none;
-}
-
-.aws .container .aws-text button:hover a {
   color: #fff;
 }
 
