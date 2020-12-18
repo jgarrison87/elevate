@@ -206,10 +206,46 @@ img {
   border-bottom: 2px solid var(--primary-color);
 }
 
+.aws .container .aws-text a:hover {
+  font-weight: bold;
+}
+
 .aws .container .aws-text .btn:hover {
   background-color: var(--teal);
   border: none;
   color: #fff;
+}
+
+.aws .conatiner .slider-container {
+  overflow: hidden;
+  width: 500px;
+  height: 500px;
+}
+
+.aws .conatiner .slider-container .slider {
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  animation: 15s slider infinite;
+}
+
+.aws .conatiner .slider-container .slider img {
+  width: 20%;
+  float: left;
+}
+
+@keyframes slider {
+  0% { left: 0; }
+  15% { left: 0; }
+  20% { left: -100%; }
+  40% { left: -100%; }
+  45% { left: -200%; }
+  65% { left: -200%; }
+  70% { left: -300%; }
+  85% { left: -300%; }
+  90% { left: -400%; }
+  100% { left: -400%; }
 }
 
 /* Join Us */
@@ -456,15 +492,39 @@ input[type=radio]:checked {
   flex-direction: column;
 }
 
-.footer-links .container .social ul {
+.social-ul {
   display: flex;
   justify-content: space-evenly;
   padding: 10px;
 }
 
-.footer-links .container .social ul i:hover {
+.social-tooltip {
+  position: relative;
+}
+
+.social-tooltip .tooltiptext {
+  visibility: hidden;
+  position: absolute;
+  bottom: -50px;
+  left: -35px;
+  background-color: #fff;
+  width: 200px;
+  z-index: 10;
+}
+
+.social ul .facebook-i:hover a {
   color: var(--primary-color);
   cursor: pointer;
+  border: none;
+}
+
+.social ul .facebook-i:hover .tooltiptext{
+  visibility: visible;
+}
+
+.social ul li:hover {
+  text-decoration: none;
+  
 }
 
 .footer-links .container a:hover {

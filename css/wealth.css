@@ -402,8 +402,17 @@ img {
 
 /* closing-2 */
 .closing-2 .grid {
-  grid-template-columns: repeat(3, 1fr);
-  margin: 50px auto;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 20px auto;
+}
+
+.closing-2 .grid .grid-item {
+  margin: 0px auto;
+}
+
+.closing-2 .grid .grid-item img {
+  height: 400px;
+  width: 400px;
 }
 
 .closing-2 .closing-final {
@@ -788,7 +797,7 @@ img {
 
   /* closing-2 */
   .closing-2 .grid {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
 
   .closing-2 .grid .grid-item:last-child {
