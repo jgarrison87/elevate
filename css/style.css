@@ -167,6 +167,8 @@ img {
 .testimonials .container .testimonials-text h2 {
   padding-bottom: 20px;
   border-bottom: 2px solid var(--primary-color);
+  width: 400px;
+  margin: 0px auto;
 }
 
 .testimonials .container .testimonials-text {
@@ -206,7 +208,7 @@ img {
   border-bottom: 2px solid var(--primary-color);
 }
 
-.aws .container .aws-text a:hover {
+.aws-text a:hover {
   font-weight: bold;
 }
 
@@ -683,6 +685,7 @@ input[type=radio]:checked {
 }
 
 .nav-ul a {
+  color: var(--teal);
   font-size: 1.5rem;
   margin: 30px;
   padding: 0px;
@@ -710,6 +713,22 @@ input[type=radio]:checked {
     margin-top: 10px;
   }
 
+  
+  /* testimonials */
+  .testimonials .grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .testimonials .grid .slider-container {
+    height: 400px;
+    width: 380px;
+    margin: 0px auto;
+  }
+  
+  .testimonials .container .testimonials-text p {
+    margin: 30px;
+  }
+  
   /* aws */
   .aws {
     padding: 40px 0px;
@@ -720,18 +739,13 @@ input[type=radio]:checked {
     padding: 10px 30px;
   }
 
-  /* testimonials */
-  .testimonials .grid {
-    grid-template-columns: 1fr;
-  }
-
-  .testimonials .grid .slider-container {
+  .aws .grid .slider-container {
     height: 400px;
     width: 380px;
     margin: 0px auto;
   }
 
-  .testimonials .container .testimonials-text p {
+  .aws .container .testimonials-text p {
     margin: 30px;
   }
 
