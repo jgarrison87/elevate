@@ -62,6 +62,10 @@ span {
 }
 
 /* form */
+form {
+  display: flex;
+  flex-direction: column;
+}
 .form-control {
   padding: 30px;
   display: flex;
