@@ -17,27 +17,32 @@
         <u>US</u>
       </h2>
     </div>
-    <form name="contact" method="POST" data-netlify="true">
+    <form id="form" class="form" method="POST" data-netlify="true">
+      <h2>Contact Me</h2>
       <div class="form-control">
-        <input type="text" placeholder="Enter Name">
+        <label for="fName">First Name</label>
+        <input type="text" id="fName" placeholder="Enter First Name" />
+        <small>Error message</small>
       </div>
       <div class="form-control">
-        <input type="email" placeholder="Enter Email">
+        <label for="lName">Last Name</label>
+        <input type="text" id="lName" placeholder="Enter Last Name" />
+        <small>Error message</small>
       </div>
       <div class="form-control">
-        <select name="goals" id="goals">
-          <option value="goals">Personal Goals</option>
-          <option value="sleep">Sleep Quality</option>
-          <option value="energy">More Energy</option>
-          <option value="strength">Strength</option>
-          <option value="mental">Mental Fog</option>
-        </select>
+        <label for="email">Email</label>
+        <input type="text" id="email" placeholder="Enter email" />
+        <small>Error message</small>
       </div>
       <div class="form-control">
-        <textarea name="message" cols="30" rows="10"></textarea>
-      </div>       
-      
-      <button type="submit" class="btn">Submit</button>
+        <label for="message">Message</label>
+        <textarea name="message" id="" cols="42" rows="10"></textarea>
+        <small>Error message</small>
+      </div>
+      <div class="field">
+        <div data-netlify-recaptcha="true"></div>
+      </div>
+      <button type="submit">Submit</button>
     </form>
   </div>
   
