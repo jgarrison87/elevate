@@ -395,7 +395,7 @@
         <img src="../img/home/contact-img.jpg" alt="">
         <h2 class="md">Alison Avayu</h2>
         <p>Fort Lauderdale, FL<br>
-          ABChealthandwellness@gmail.com
+          Alison@liveyourlifeelevated.com
         </p>
       </div>
     </div>
@@ -405,16 +405,19 @@
   </div>
   </footer>
 
-<!-- email modal -->
-<section class="email-modal">
+<!-- grocery modal -->
+<section class="grocery-modal">
   <div id="modal-bg" class="modal-bg">
     <div id="modal-container" class="modal-container container flex">
-      <div class="email-form">
+      <div class="grocery-text">
         <h2 class="md">Enjoy our favorite Grocery go-to list!</h2>
         <p class="sm">And stay up to date on future <u><em>promotions.</em></u></p>
-        <form>
-          <input type="text" placeholder="Enter Your Email" /><br />
-          <button class="btn submit" type="submit">SIGN UP</button>
+        <form name="grocery-form" method="POST" data-netlify="true">
+          <div class="form-control">
+            <input type="text" name="name" placeholder="First Name">
+            <input type="email" name="email" placeholder="Enter Your Email" /><br />
+          </div>
+          <button class="btn" type="submit">SIGN UP</button>
         </form>
         <span class="modal-close" id="modal-close">X</span>
       </div>

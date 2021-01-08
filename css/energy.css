@@ -520,9 +520,10 @@ img {
   bottom: 0px;
   left: 50%;
   transform: translateX(-50%);
- }
+  
+}
 
- .email-modal .modal-container {
+.grocery-modal .modal-container {
   border: 2px solid var(--teal);
 }
 
@@ -530,7 +531,7 @@ img {
   transform: translateY(250px);
 }
 
-.email-modal form {
+.grocery-modal form {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -538,19 +539,23 @@ img {
   color: #fff;
 }
 
-.email-modal .email-form h2 {
+.grocery-text {
+  width: 50%;
+}
+
+.grocery-text h2 {
   padding: 0px 10px;
   color: #fff;
   text-align: center;
 }
 
-.email-modal .email-form p {
+.grocery-text p {
   text-align: center;
   padding: 10px;
   color: #fff;
 }
 
-.email-modal .email-form .modal-close {
+.grocery-text .modal-close {
   color: #a6a6a6;
   font-size: 2rem;
   font-weight: bold;
@@ -560,11 +565,15 @@ img {
   cursor: pointer;
 }
 
-.email-modal form input {
+.grocery-text .form-control {
+  margin: 10px;
+}
+
+.grocery-text form input {
   height: 40px;
   font-size: 16px;
   padding-left: 5px;
-  width: 500px;
+  width: 250px;
   outline: none;
   background-color: var(--secondary-color);
   border: none;
@@ -572,11 +581,11 @@ img {
   color: #fff;
 }
 
-.email-modal form input::placeholder {
+.grocery-modal form input::placeholder {
   color: #fff;
 }
 
-.email-modal form button {
+.grocery-modal form button {
   background-color: var(--primary-color);
   color: #fff;
   width: 500px;
@@ -587,12 +596,12 @@ img {
   border: none;
 }
 
-.email-modal form button:hover {
+.grocery-modal form button:hover {
   cursor: pointer;
   background-color: var(--primary-color);
 }
 
-.email-modal .email-form span:hover {
+.grocery-modal .grocery-text span:hover {
   color: #fff;
 }
 
@@ -826,23 +835,23 @@ img {
 
 /* email modal */
 
-.email-modal {
+.grocery-modal {
   height: 300px;
 }
 
-.email-modal .modal-container {
+.grocery-modal .modal-container {
   border: 2px solid var(--teal);
   box-shadow: 0px 0px 40px 5px #000;  
 }
- 
-.email-modal form input {
+
+.grocery-modal form input {
   margin-top: 20px;
   max-width: 300px;
 }
 
-.email-modal form button {
-  margin-top: 20px;
-  max-width: 300px;
+.grocery-modal form button {
+  margin-top: 40px;
+  max-width: 200px;
 }
 
 .modal-container {
@@ -853,11 +862,11 @@ img {
   transform: translate(-50%, -50%);
 }
 
-.email-modal .email-form {
+.grocery-modal .grocery-text {
   width: 100%;
 }
 
-.email-modal .email-form h2 {
+.grocery-modal .grocery-text h2 {
   font-size: 2rem;
 }
 
