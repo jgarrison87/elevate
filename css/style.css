@@ -577,7 +577,7 @@ input[type=radio]:checked {
   
 }
 
-.email-modal .modal-container {
+.grocery-modal .modal-container {
   border: 2px solid var(--teal);
 }
 
@@ -585,7 +585,7 @@ input[type=radio]:checked {
   transform: translateY(250px);
 }
 
-.email-modal form {
+.grocery-modal form {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -593,19 +593,23 @@ input[type=radio]:checked {
   color: #fff;
 }
 
-.email-modal .email-form h2 {
+.grocery-form {
+  width: 50%;
+}
+
+.grocery-form h2 {
   padding: 0px 10px;
   color: #fff;
   text-align: center;
 }
 
-.email-modal .email-form p {
+.grocery-form p {
   text-align: center;
   padding: 10px;
   color: #fff;
 }
 
-.email-modal .email-form .modal-close {
+.grocery-form .modal-close {
   color: #a6a6a6;
   font-size: 2rem;
   font-weight: bold;
@@ -615,11 +619,15 @@ input[type=radio]:checked {
   cursor: pointer;
 }
 
-.email-modal form input {
+.grocery-form .form-control {
+  margin: 10px;
+}
+
+.grocery-form form input {
   height: 40px;
   font-size: 16px;
   padding-left: 5px;
-  width: 500px;
+  width: 250px;
   outline: none;
   background-color: var(--secondary-color);
   border: none;
@@ -627,11 +635,11 @@ input[type=radio]:checked {
   color: #fff;
 }
 
-.email-modal form input::placeholder {
+.grocery-modal form input::placeholder {
   color: #fff;
 }
 
-.email-modal form button {
+.grocery-modal form button {
   background-color: var(--primary-color);
   color: #fff;
   width: 500px;
@@ -642,12 +650,12 @@ input[type=radio]:checked {
   border: none;
 }
 
-.email-modal form button:hover {
+.grocery-modal form button:hover {
   cursor: pointer;
   background-color: var(--primary-color);
 }
 
-.email-modal .email-form span:hover {
+.grocery-modal .grocery-form span:hover {
   color: #fff;
 }
 
@@ -808,23 +816,23 @@ input[type=radio]:checked {
 
    /* email modal */
 
-.email-modal {
+.grocery-modal {
   height: 300px;
 }
 
-.email-modal .modal-container {
+.grocery-modal .modal-container {
   border: 2px solid var(--teal);
   box-shadow: 0px 0px 40px 5px #000;  
 }
 
-.email-modal form input {
+.grocery-modal form input {
   margin-top: 20px;
   max-width: 300px;
 }
 
-.email-modal form button {
-  margin-top: 20px;
-  max-width: 300px;
+.grocery-modal form button {
+  margin-top: 40px;
+  max-width: 200px;
 }
 
 .modal-container {
@@ -835,11 +843,11 @@ input[type=radio]:checked {
   transform: translate(-50%, -50%);
 }
 
-.email-modal .email-form {
+.grocery-modal .grocery-form {
   width: 100%;
 }
 
-.email-modal .email-form h2 {
+.grocery-modal .grocery-form h2 {
   font-size: 2rem;
 }
 
