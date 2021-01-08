@@ -593,23 +593,23 @@ input[type=radio]:checked {
   color: #fff;
 }
 
-.grocery-form {
+.grocery-text {
   width: 50%;
 }
 
-.grocery-form h2 {
+.grocery-text h2 {
   padding: 0px 10px;
   color: #fff;
   text-align: center;
 }
 
-.grocery-form p {
+.grocery-text p {
   text-align: center;
   padding: 10px;
   color: #fff;
 }
 
-.grocery-form .modal-close {
+.grocery-text .modal-close {
   color: #a6a6a6;
   font-size: 2rem;
   font-weight: bold;
@@ -619,11 +619,11 @@ input[type=radio]:checked {
   cursor: pointer;
 }
 
-.grocery-form .form-control {
+.grocery-text .form-control {
   margin: 10px;
 }
 
-.grocery-form form input {
+.grocery-text form input {
   height: 40px;
   font-size: 16px;
   padding-left: 5px;
@@ -655,7 +655,7 @@ input[type=radio]:checked {
   background-color: var(--primary-color);
 }
 
-.grocery-modal .grocery-form span:hover {
+.grocery-modal .grocery-text span:hover {
   color: #fff;
 }
 
@@ -843,11 +843,11 @@ input[type=radio]:checked {
   transform: translate(-50%, -50%);
 }
 
-.grocery-modal .grocery-form {
+.grocery-modal .grocery-text {
   width: 100%;
 }
 
-.grocery-modal .grocery-form h2 {
+.grocery-modal .grocery-text h2 {
   font-size: 2rem;
 }
 
