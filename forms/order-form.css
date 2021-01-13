@@ -62,6 +62,8 @@ span {
 
 input {
   margin: 0px 20px 0px 0px;
+  font-size: 1.1rem;
+  padding: 5px 10px;
 }
 
 input.answer {
@@ -72,8 +74,19 @@ input.answer {
   padding: 5px 10px;
 }
 
-input.answer:focus {
+input:focus {
   outline: none;
+}
+
+.name p{
+  padding: 10px 0;
+}
+
+.name input {
+  margin: 10px 0px;
+  max-width: 500px;
+  border: none;
+  border-bottom: 2px solid rgb(200, 200, 200);
 }
 
 .grid .grid-item {
