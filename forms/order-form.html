@@ -113,19 +113,24 @@
     </div>
     <div class="section">
       <p>Do you have friends/family that need more energy, weight-loss, reduced stress and or improved athletic performance? <span>*</span></p>
-      <label for="yes"><input type="radio" name="yes">Oh my gosh YES!</label>
-      <label for="doubt-it"><input type="radio" name="doubt-it">Doubt it.</label>
+      <label for="yes"><input type="radio" id="yes" name="friends-family" value="yes">Oh my gosh YES!</label>
+
+      <label for="doubt-it"><input type="radio" id="no" name="friends-family" value="no">Doubt it.</label>
     </div>
     <div class="section">
       <p>Membership options (price per year - gives you access to our rewards program to earn 10% back and/or also receive referral bonuses for sharing) <span>*</span></p>
-      <label for="not-ready"><input type="radio" name="not-ready">$14.95 member - not ready to share and get referral cash just yet</label>
-      <label for="ready"><input type="radio" name="ready">+$35 Referring member - I want to be able to earn cash for sharing! ($49.99 total)</label>
+
+      <label for="not-ready"><input type="radio" id="not-ready" name="membership-options" value="not-ready">$14.95 member - not ready to share and get referral cash just yet</label>
+
+      <label for="ready"><input type="radio" id="ready" name="membership-options" value="ready">+$35 Referring member - I want to be able to earn cash for sharing! ($49.99 total)</label>
     </div>
     <div class="section">
       <p>Misc information <span>*</span></p>
-      <label for="yes"><input type="checkbox" name="yes">I understand that all prices listed are plus any applicable tax/shipping. Shipping over $200 is free.</label>
-      <label for="doubt-it"><input type="checkbox" name="doubt-it">I am over 18 years old</label>
-      <label for="doubt-it"><input type="checkbox" name="doubt-it">I understand that if I do NOT receive a confirmation email within 24 hours I am to email alison@liveyourlifeelevated.com</label>
+      <label for="yes"><input type="checkbox" name="misc-info" required>I understand that all prices listed are plus any applicable tax/shipping. Shipping over $200 is free.</label>
+
+      <label for="doubt-it"><input type="checkbox" name="misc-info" required>I am over 18 years old</label>
+
+      <label for="doubt-it"><input type="checkbox" name="misc-info" required>I understand that if I do NOT receive a confirmation email within 24 hours I am to email alison@liveyourlifeelevated.com</label>
     </div>
     <div class="section">
       <p>Please feel free to reach out via email if you would like to set up a call to place your order over the phone or if you have any questions. I am happy to help in any way. I look forward to being on this health journey with you. Cheers!</p>
