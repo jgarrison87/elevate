@@ -89,6 +89,13 @@ input:focus {
   border-bottom: 2px solid rgb(200, 200, 200);
 }
 
+.locate input {
+  margin: 10px 5px;
+  max-width: 500px;
+  border: none;
+  border-bottom: 2px solid rgb(200, 200, 200);
+}
+
 .grid .grid-item {
   height: 100%;
 }
