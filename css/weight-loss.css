@@ -711,14 +711,13 @@ img {
 
 .dropdown {
   background-color: var(--purple);
+  right: 0%;
+  border-radius: 0px;
+  width: 240px;
+  margin: 0px;
 }
 
-.dropdown a {
-  font-size: 1.75rem;
-
-}
-
-  /* showcase */
+/* showcase */
   .showcase-container {
     display: flex;
     flex-direction: column;
