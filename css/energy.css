@@ -687,7 +687,7 @@ img {
 
 .dropdown {
   background-color: var(--orange);
-  right: 0%;
+  left: -30%;
   border-radius: 0px;
   width: 240px;
   margin: 0px;
