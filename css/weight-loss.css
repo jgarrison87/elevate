@@ -523,17 +523,35 @@ img {
   flex-direction: column;
 }
 
-.footer-links .container .social ul {
+.social-ul {
   display: flex;
   justify-content: space-evenly;
   padding: 10px;
 }
 
-.footer-links .container .social ul i:hover {
-  color: var(--purple);
-  cursor: pointer;
+.social-tooltip {
+  position: relative;
 }
 
+.social-tooltip .tooltiptext {
+  visibility: hidden;
+  position: absolute;
+  bottom: -50px;
+  left: -35px;
+  background-color: #fff;
+  width: 200px;
+  z-index: 10;
+}
+
+.social ul a i:hover {
+  color: var(--purple);
+  cursor: pointer;
+  border: none;
+}
+
+.social ul .facebook-i:hover .tooltiptext{
+  visibility: visible;
+}
 .footer-links .container a:hover {
   border-bottom: 2px solid var(--purple);
   font-weight: bold;

@@ -549,7 +549,7 @@ input[type=radio]:checked {
   z-index: 10;
 }
 
-.social ul .facebook-i:hover a {
+.social ul a i:hover {
   color: var(--primary-color);
   cursor: pointer;
   border: none;
@@ -559,10 +559,6 @@ input[type=radio]:checked {
   visibility: visible;
 }
 
-.social ul li:hover {
-  text-decoration: none;
-  
-}
 
 .footer-links .container a:hover {
   border-bottom: 2px solid var(--primary-color);
