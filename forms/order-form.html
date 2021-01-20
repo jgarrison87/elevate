@@ -24,28 +24,11 @@
     </div>
     <div class="section name">
       <p>Full Name <span>*</span></p>
-      <input type="text" id="fname" name="First-name" placeholder="First name">
-      <input type="text" id="lname" name="Last-name" placeholder="Last name">
-    </div>
-    <div class="section locate">
-      <p>How did you find out about us? <span>*</span></p>
-      <label><input type="radio" id="facebook" name="How did you find us?" value="facebook">Facebook</label>
-
-      <label><input type="radio" id="instagtram" name="How did you find us?" value="instagtram">Instagram</label>
-
-      <label><input type="radio" id="pintrest" name="How did you find us?" value="pintrest">Pintrest</label>
-
-      <label><input type="radio" id="google/search" name="How did you find us?" value="google/search">Google/Internet Search</label>
-
-      <label><input type="radio" id="email" name="How did you find us?" value="email">Email</label>
-
-      <label><input type="radio" id="campaign" name="How did you find us?" value="campaign">Sharing is caring campaign</label>
-
-      <label><input type="radio" id="other" name="How did you find us?" value="other">Other: <input type="text"></label>
-      
+      <input type="text" id="fname" name="First-name" placeholder="First name" required>
+      <input type="text" id="lname" name="Last-name" placeholder="Last name" required>
     </div>
     <div class="section">
-      <p>Let's Get Started! (make sure to check the next section for flavor selections for certain kits) <span>*</span></p>
+      <p>Pick your kit! (scroll down for individual product options)<span>*</span></p>
       <div class="grid">
         <div class="grid-item">
           <img src="./img/ultimate.jpg" alt="">
@@ -94,52 +77,69 @@
     <div class="section">
       <p>Flavor selections for certain kits</p>
       <label><input type="radio" id="choc-punch" name="flavor" value="Chocolate / Fruit Punch">Trim Down Trio - CHOCOLATE shake and FRUIT PUNCH Trimstix</label>
-
+      
       <label><input type="radio" id="choc-orange" name="flavor" value="Chocolate / Orange Pineapple">Trim Down Trio - CHOCOLATE shake and ORANGE PINEAPPLE Trimstix</label>
-
+      
       <label><input type="radio" id="van-punch" name="flavor" value="Vanilla / Fruit Punch">Trim Down Trio - VANILLA shake and FRUIT PUNCH Trimstix</label>
-
+      
       <label><input type="radio" id="van-orange" name="flavor" value="Vanilla / Orange Pineapple">Trim Down Trio - VANILLA shake and ORANGE PINEAPPLE Trimstix</label>
-
+      
       <label><input type="radio" id="fruit-punch" name="flavor" value="Fruit Punch">Ignite + Trimstix: FRUIT PUNCH Trimstix</label>
-
+      
       <label><input type="radio" id="orange-pine" name="flavor" value="Orange Pineapple">Ignite + Trimstix: ORANGE PINEAPPLE Trimstix</label>
-
+      
       <label><input type="radio"  name="flavor" value="Fruit Punch">Power Pack: FRUIT PUNCH Trimstix</label>
-
+      
       <label><input type="radio" name="flavor" value="Orange Pineapple">Power Pack: ORANGE PINEAPPLE Trimstix</label>
+    </div>
+    <div class="section locate">
+      <p>How did you find out about us? <span>*</span></p>
+      <label><input type="radio" id="facebook" name="How did you find us?" value="facebook">Facebook</label>
+
+      <label><input type="radio" id="instagtram" name="How did you find us?" value="instagtram">Instagram</label>
+
+      <label><input type="radio" id="pintrest" name="How did you find us?" value="pintrest">Pintrest</label>
+
+      <label><input type="radio" id="google/search" name="How did you find us?" value="google/search">Google/Internet Search</label>
+
+      <label><input type="radio" id="email" name="How did you find us?" value="email">Email</label>
+
+      <label><input type="radio" id="campaign" name="How did you find us?" value="campaign">Sharing is caring campaign</label>
+
+      <label><input type="radio" id="other" name="How did you find us?" value="other">Other: <input type="text"></label>
+      
     </div>
     <div class="section">
       <p>Who is your coach/sponsor that told you about this? (If you do not know, you can just put N/A) <span>*</span></p>
-      <input class="answer" type="text" placeholder="Your Answer" name="coach/sponsor">
+      <input class="answer" type="text" placeholder="Your Answer" name="coach/sponsor" required>
     </div>
     <div class="section">
       <p>Email address <span>*</span></p>
-      <input class="answer" type="email" placeholder="Your Answer" name="email">
+      <input class="answer" type="email" placeholder="Your Answer" name="email" required>
     </div>
     <div class="section">
       <p>Cell phone - no spaces (Our virtual coach "Xander" is including with all our systems) <span>*</span></p>
-      <input class="answer" type="tel" placeholder="Your Answer" name="phone">
+      <input class="answer" type="tel" placeholder="Your Answer" name="phone" required>
     </div>
     <div class="section">
       <p>Shipping address (street, city, state, zip)  <span>*</span></p>
-      <input class="answer" type="text" placeholder="Your Answer" name="address">
+      <input class="answer" type="text" placeholder="Your Answer" name="address" required>
     </div>
     <div class="section">
       <p>Billing address (if different than shipping address)</p>
-      <input class="answer" type="text" placeholder="Your Answer" name="billing-address">
+      <input class="answer" type="text" placeholder="Your Answer" name="billing-address" required>
     </div>
     <div class="section">
       <p>CC Number  <span>*</span></p>
-      <input class="answer" type="number" placeholder="Your Answer" name="credit-card">
+      <input class="answer" type="number" placeholder="Your Answer" name="credit-card" required>
     </div>
     <div class="section">
       <p>Expiration  <span>*</span></p>
-      <input class="answer" type="month" placeholder="Your Answer" name="expiration">
+      <input class="answer" type="month" placeholder="Your Answer" name="expiration" required>
     </div>
     <div class="section">
       <p>CVV  <span>*</span></p>
-      <input class="answer" type="number" placeholder="Your Answer" name="CVV">
+      <input class="answer" type="number" placeholder="Your Answer" name="CVV" required>
     </div>
     <div class="section">
       <p>Do you have friends/family that need more energy, weight-loss, reduced stress and or improved athletic performance? <span>*</span></p>
