@@ -42,6 +42,11 @@ img {
   margin: 0px auto;
 }
 
+[type="checkbox"]:not(:checked),
+  [type="checkbox"]:checked {
+   cursor: pointer;
+  }
+
 .section {
   padding: 20px;
   line-height: 2rem;
