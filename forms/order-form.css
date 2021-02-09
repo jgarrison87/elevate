@@ -47,6 +47,10 @@ img {
    cursor: pointer;
   }
 
+  .navbar {
+    margin: 20px 50px;
+  }
+
 .section {
   padding: 20px;
   line-height: 2rem;
