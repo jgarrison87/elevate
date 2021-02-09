@@ -42,6 +42,7 @@ img {
 
 .navbar {
   margin: 20px 50px;
+  font-size: 1.2rem;
 }
 
 
@@ -108,6 +109,10 @@ form {
 
 
 @media (max-width:500px) {
+  .navbar {
+    margin: 20px 20px 0px;
+  }
+  
   .container {
     box-shadow: 0px 20px 50px 10px rgba(50, 50, 50, .5);
     padding: 5px 20px;
