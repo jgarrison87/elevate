@@ -703,6 +703,14 @@ img {
 }
 
 }
+
+@media (max-width:1050px) {
+  /* center 2 */
+.center-2 .container .grid {
+  grid-template-columns: repeat(1, 1fr);
+}
+}
+
 @media (max-width:500px) {
  /* navbar */
  .hamburger {
