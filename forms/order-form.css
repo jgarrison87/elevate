@@ -70,10 +70,6 @@ span {
   color: red;
 }
 
-.section p {
-  font-weight: bold;
-}
-
 input {
   margin: 0px 20px 0px 0px;
   font-size: 1.1rem;
@@ -128,12 +124,19 @@ input:focus {
   align-items: center;
 }
 
-
 .grid-text input:hover {
   cursor: pointer;
   transform: scale(1.2);
   font-weight: bolder;
   border-radius: 50%;
+}
+
+.grid-pricing {
+  text-align: center;
+}
+
+.grid-pricing label {
+  font-size: 1.2rem;
 }
 
 button {
