@@ -875,10 +875,6 @@ img {
   grid-template-columns: 1fr;
 }
 
-.center-2 .container .grid:last-child {
-  display: none;
-}
-
 .center-2 .container h2 {
   font-size: 2rem;
 }
